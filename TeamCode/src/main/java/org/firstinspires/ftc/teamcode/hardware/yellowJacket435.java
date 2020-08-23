@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 
 public class yellowJacket435 implements Motor {
 
-    private DcMotor m_motor;
+    public DcMotor m_motor;
     private double resetVal;
 
     public static final double TICKS_PER_REV = 383.6;
